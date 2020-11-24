@@ -12,7 +12,7 @@ The QGIS 2 documentation is available `here <https://docs.qgis.org/2.18/fr/docs/
 * `Intersect It <http://3nids.github.io/intersectit/>`_: provides the user to construct new points from intersection with other objects in the map.
 
 
-At the open of the projet, a message appear. You must activate macro. Since QWAT have a lot of triggers and relations, some actions are generated with python in QGIS.
+At the open of the projet, a message appear. You must activate macro. Since QWAT have a lot of triggers and relations, some actions are generated with Python in QGIS.
 
 .. image:: img/activate_macro.png
 
