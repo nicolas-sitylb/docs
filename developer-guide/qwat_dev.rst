@@ -51,7 +51,7 @@ Version and release management policy
 * It is possible to multiple Delta files for one *version-release* Ex: `delta_1.3.2_0001_one_change`, `delta_1.3.2_0002_another_change`
 * Each new version will systematically have a release. A release is materialized by a git tag
 * travis-CI automatically deploys a release when the tag is pushed AND the tests succeed
-* Data administrators must NEVER work on master branch, but use release. The rationale behind that is that the latest version in master branch changes until the release, so it is not a reliable version tag . This means for git user they ahve to fetch remote tags and checkout to the desired release using git checkout tag_number
+* Data administrators must NEVER work on master branch, but use release. The rationale behind that is that the latest version in master branch changes until the release, so it is not a reliable version tag. This means for git user they have to fetch remote tags and checkout to the desired release using :code:`git checkout <tag_number>`.
 
 
 Release process
@@ -86,12 +86,12 @@ However, we recommend using only one customization SQL script, with no version i
 Developing the core data model
 ------------------------------
 
-To keep a controlled process over versioning, we have the following system :
+To keep a controlled process over versioning, we have the following system:
 
 * The SQL files corresponding to the creation of the core data model
 * SQL files corresponding to the modifications from version X to version X+1 ("diff SQL")
 
-Diff files are located in the repository in the "delta" directory. Their name has this convention, which is used by PUM module :
+Diff files are located in the repository in the "delta" directory. Their name has this convention, which is used by PUM module:
 
 * `delta_1.3.2_0001_one_change.sql`
 
@@ -104,7 +104,7 @@ Some delta file are simple, like new tables and views. Some are more more comple
 That means that adding user fields (in elements or pipes for instance), will require additional instructions to drop and recreate the views before / after applying you delta file.
 PUM allows to add pre and post files, either in python or sql for each update, see delta.1.2.8 for exemples.
 
-As a consequence, when developing the core data model, you should : 
+As a consequence, when developing the core data model, you should: 
 
 * Put your modifications to the core model SQL files
 * Add your modifications to the correct diff file.
