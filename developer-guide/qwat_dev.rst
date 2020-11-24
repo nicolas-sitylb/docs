@@ -6,7 +6,7 @@ Prerequisites
 -------------
 
 
-In order to develop for QWAT, the following skills may be required :
+In order to develop for QWAT, the following skills may be required:
 
 * Good general knowledge of GIS
 * Good general knowledge of QGIS
@@ -57,7 +57,7 @@ Version and release management policy
 Release process
 ---------------
 
-The release process for QWAT is the following :
+The release process for QWAT is the following:
 
 * Issues are triaged with milestones for next versions
 * The *release manager* decides when the next release will be made, in accordance with the community needs

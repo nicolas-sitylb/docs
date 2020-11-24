@@ -10,11 +10,11 @@ Principles
 
 * Reference altitude values are stored in nodes and survey points. They may have been set manually, or set from field measurements
 * 3D geometries for pipes are automatically recomputed, and the Z value of the pipe's vertices should not be set manually. The 3D geometry is recomputed from nodes and survey points by interpolating the values.
-* Nodes and survey points tables feature informations on the precision, as well as source of measure (gps, interpolation, dtm, etc..). The following attributes are stored :
+* Nodes and survey points tables feature informations on the precision, as well as source of measure (gps, interpolation, dtm, etc..). The following attributes are stored:
 
-    * precision_plani : planimetric precision
-    * precision_alt : altimetric precision
-    * zsource : source of measure
+    * precision_plani: planimetric precision
+    * precision_alt: altimetric precision
+    * zsource: source of measure
 
 * A survey point does not necessarily correspond to a node. If the survey point spatially corresponds to a vertex, the value will also be used for interpolating the 3D geometry of the pipe.
 * Each location where altitude are known (measured) has a corresponding survey point or node

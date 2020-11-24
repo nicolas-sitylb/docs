@@ -547,7 +547,7 @@ Process:
     * Get all crossing points (by performing intersections between pipes)
     * For each point
         * If point is at the end of a pipe: do nothing
-        * Else, for the 2 crossing pipes :
+        * Else, for the 2 crossing pipes:
             * Perform azimuth for all segments of the pipes with the corresponding linear referencing
             * Find the correct segment according to linear referencing of the crossing point
             * Get the corresponding azimuth according to segment id

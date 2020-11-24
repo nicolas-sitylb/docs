@@ -10,12 +10,12 @@ If you want to go further, you can look at `the Developer's Guide <developer_>`_
 Prerequisites
 -------------
 
-You will need a GitHub account. Please create one here : https://github.com/join.
+You will need a GitHub account. Please create one here: https://github.com/join.
 
 Discussing features
 -------------------
 
-Bug reports, feature demand, feature specifications and all collaboration on QWAT takes place first in QWAT issues :
+Bug reports, feature demand, feature specifications and all collaboration on QWAT takes place first in QWAT issues:
 
 * https://github.com/qwat/QWAT/issues
 
@@ -27,8 +27,8 @@ Read below advices on how to contribute.
 I found a bug in QWAT, what do I do ?
 `````````````````````````````````````
 * If the bug you find is a QGIS issue, please search if it doesn't exist upstream at `https://issues.qgis.org/projects/qgis/issues/ <https://issues.qgis.org/projects/qgis/issues/>`_ and add one if needed
-* Create a new issue here : https://github.com/qwat/QWAT/issues. Reference any upstream issue there.
-* Be sure to include all relevant information to reproduce the bug : minimal steps to follow, sample data, QGIS version, options used...
+* Create a new issue here: https://github.com/qwat/QWAT/issues. Reference any upstream issue there.
+* Be sure to include all relevant information to reproduce the bug: minimal steps to follow, sample data, QGIS version, options used...
 * Be clear and concise. Any screencast or screenshot will help a lot.
 * Tag your issue as "Bug"
 * Keep an eye on the following discussion to give additional informations if needed
@@ -37,10 +37,10 @@ I found a bug in QWAT, what do I do ?
 I found a bug in the data model, what do I do ?
 ```````````````````````````````````````````````
 
-* Open a new issue here as well : https://github.com/qwat/QWAT/issues
-* If you are 100% sure that it is a data model bug :
+* Open a new issue here as well: https://github.com/qwat/QWAT/issues
+* If you are 100% sure that it is a data model bug:
     * tag your issue as "Data model"
-    * open a new issue here : https://github.com/qwat/qwat-data-model/issues
+    * open a new issue here: https://github.com/qwat/qwat-data-model/issues
     * reference this new issue in the QWAT issue originally created
 * If unsure, help developers to qualify the bug
 
@@ -48,7 +48,7 @@ I found a bug in the data model, what do I do ?
 I want a new feature in QWAT, what do I do ?
 ````````````````````````````````````````````
 
-* Open a new issue here : https://github.com/qwat/QWAT/issues
+* Open a new issue here: https://github.com/qwat/QWAT/issues
 * Describe carefully the feature with details, include images and mockups if needed
 * Tag the issue as "Enhancement"
 * Consider funding the development
@@ -80,7 +80,7 @@ I need a change in the data model, what is the process ?
 My change demand has been considered valid. What is next ?
 ``````````````````````````````````````````````````````````
 
-* Two cases : you can write the change, or you want somedy else to do it.
+* Two cases: you can write the change, or you want somedy else to do it.
 
 I can write the patch myself, what do I do ?
 ````````````````````````````````````````````
