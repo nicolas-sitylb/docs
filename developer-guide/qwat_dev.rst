@@ -32,7 +32,7 @@ Roles
 -----
 
 * *Commiters* have access to QWAT code repositories and can push to them. It means they control the evolution of the software
-* *contributors* can provide information, code, documentation to the project. They do not have direct access for modifications and must go through the *commiters* to get their modifications applied. See the [[Contributors_guide]] for more information and processes.
+* *contributors* can provide information, code, documentation to the project. They do not have direct access for modifications and must go through the *commiters* to get their modifications applied. See the :ref:`contributor` for more information and processes.
 * The *release manager* is in charge of deciding when a new version of the software is published, and to actually publish the release. Current release manager is `Régis Haubourg (OSLANDIA)  <https://github.com/haubourg>`_ on behalf of the QWAT's group.
 
 Release cycles and versioning
